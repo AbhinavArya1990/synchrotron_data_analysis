@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+pymicro/*.py[cod]
+pymicro/*/*.py[cod]
+pymicro/*/tests/*.py[cod]
+pymicro/*/__pycache__
+pymicro/*/tests/__pycache__
+__pycache__
+
+# examples
+examples/*/*.py[cod]
+
+# Sphinx documentation
+docs/_build
+docs/auto_examples
+docs/sphinxext/*.py[cod]
+
+# Distribution / packaging
+pymicro.egg-info/
+dist/
+build/
+
+# Code coverage report
+.coverage
+
+# pycharm stuff
+.idea
